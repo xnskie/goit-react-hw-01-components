@@ -10,7 +10,6 @@ import React from 'react';
 export const App = () => {
   return (
     <>
-      <h2>Task1</h2>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -18,12 +17,9 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <h2>Task2</h2>
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
-      <h2>Task3</h2>
       <FriendList friends={friends} />
-      <h2>Task4</h2>
       <TransactionHistory items={transactions} />;
     </>
   );
